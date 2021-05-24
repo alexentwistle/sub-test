@@ -9,9 +9,11 @@ Identify a website's accessible and indexable subdomains
 
 
 ## ToDo
-
-- Create requirements file for Sublist3r (and Requests library)
-- Export Sublist3r result as excel (or equivalent)
 - Prepend HTTP and/or HTTPS to the exported URLs and save as URL list
 - Use Requests library to retrieve status codes for URL list
 - Check for noindex tag on accessible URLs
+
+
+## Done
+- Create requirements file for Sublist3r (and Requests library)
+- Export Sublist3r result as CSV
