@@ -9,7 +9,8 @@ Identify a website's accessible and indexable subdomains
 
 
 ## ToDo
-- Prepend HTTP and/or HTTPS to the exported URLs and save as URL list
+- Tidy up output file (try TXT file instead of CSV)
+- Prepend HTTP and/or HTTPS to the exported URLs and save as URL list.
 - Use Requests library to retrieve status codes for URL list
 - Check for noindex tag on accessible URLs
 
