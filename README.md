@@ -26,6 +26,7 @@ Identify a website's accessible and indexable subdomains
 1. sub_test.py 
 - enumerates subdomains for domain (currently fixed, eventually will take user input)
 - output as 'discovered.txt'. clean up URLs and prepend protocols, and output as 'fixed.txt'
+- return status code for each URL in 'fixed.txt', and output results to 'resuts.txt'
 
 2. check_status.py
-- return status code for each URL in 'fixed.txt', and output results to 'results.txt'
+- no longer needed
