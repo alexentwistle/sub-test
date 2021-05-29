@@ -9,8 +9,10 @@ Identify a website's accessible and indexable subdomains
 
 
 ## ToDo
+- Add comma delimiters to 'results.txt' to enable conversion to csv / xlsx
 - Test responses for different status codes
 - Check HTML response for noindex tag on accessible URLs
+
 
 
 ## Done
