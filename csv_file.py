@@ -1,3 +1,5 @@
+# No longer needed 
+
 import csv
 
 infilename = r'discovered.csv'
