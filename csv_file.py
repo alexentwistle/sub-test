@@ -1,7 +1,7 @@
 import csv
 
-infilename = r'discovered_subdomains.csv'
-outfilename = r'fixed.csv'
+infilename = r'discovered.csv'
+outfilename = r'processed.csv'
 
 
 with open(infilename, 'r') as fp_in, open(outfilename, 'w') as fp_out:

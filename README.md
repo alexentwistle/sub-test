@@ -9,12 +9,11 @@ Identify a website's accessible and indexable subdomains
 
 
 ## ToDo
-- Tidy up output file (try TXT file instead of CSV)
-- Prepend HTTP and/or HTTPS to the exported URLs and save as URL list.
 - Use Requests library to retrieve status codes for URL list
 - Check for noindex tag on accessible URLs
 
 
 ## Done
 - Create requirements file for Sublist3r (and Requests library)
-- Export Sublist3r result as CSV
+- Export Sublist3r result as TXT file and remove blank lines
+- Prepend HTTP and HTTPS to each exported URL, and save as URL list ('fixed.txt')
