@@ -11,7 +11,7 @@ Identify a website's accessible and indexable subdomains
 ## ToDo
 - Test responses for different status codes
 - Add response history (i.e. redirect steps - currently, just the final step is being reported)
-- Check for noindex tag on accessible URLs
+- Check HTML response for noindex tag on accessible URLs
 
 
 ## Done
