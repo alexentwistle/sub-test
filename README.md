@@ -10,7 +10,6 @@ Identify a website's accessible and indexable subdomains
 
 ## ToDo
 - Test responses for different status codes
-- Add response history (i.e. redirect steps - currently, just the final step is being reported)
 - Check HTML response for noindex tag on accessible URLs
 
 
@@ -20,6 +19,7 @@ Identify a website's accessible and indexable subdomains
 - sub_test.py now prepends HTTP and HTTPS to each exported URL, and saves the new URL list as 'fixed.txt'
 - Use Requests library to retrieve status codes for URL list
 - Add exception handling for Connection Error
+- Add response history for redirected URLs
 
 
 ## Temporary workflow

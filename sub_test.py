@@ -5,7 +5,8 @@ import requests
 # domain = input("Specify the domain: ")
 
 # Placeholder. TODO: Replace with user input
-domain = "filmthreat.com"
+domain = "playretrogames.com" #placeholder
+## domain = input("Please enter your domain: ") --- # when this is used instead, the command finished after doing nothing.
 subdomains = sublist3r.main(domain, 40, 'discovered.txt', ports= None, silent=True, verbose= False, enable_bruteforce= False, engines=None)
 
 with open('discovered.txt') as infile, open('fixed.txt', 'w') as outfile:
@@ -18,9 +19,9 @@ with open('fixed.txt') as infile, open('results.txt', 'w') as outfile:
     for url in infile:
         try:
             clean_url = url.rstrip()
-            r = requests.get(clean_url, timeout=2)
+            r = requests.get(clean_url, timeout=5)
 #           r = requests.get(clean_url, headers={'Connection': 'close'})
 #           r.encoding = 'utf-8'
-            outfile.write(clean_url+": "+str(r.status_code)+"\n")
+            outfile.write(clean_url+": "+str(r.status_code)+". History: "+str(r.history)+"\n")
         except requests.ConnectionError as e:
             outfile.write(clean_url+": Connection Error."+"\n")
