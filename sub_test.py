@@ -6,7 +6,7 @@ domain = "playretrogames.com" # Placeholder. TODO: Replace with user input
 
 # domain = input("Please enter your domain: ") # When this is used instead, the command ends after doing nothing.
 
-subdomains = sublist3r.main(domain, 40, 'discovered.txt', ports= None, silent=True, verbose= False, enable_bruteforce= False, engines=None)
+subdomains = sublist3r.main(domain, 10, 'discovered.txt', ports= None, silent=True, verbose= False, enable_bruteforce= False, engines=None)
 
 with open('discovered.txt') as infile, open('fixed.txt', 'w') as outfile:
     for line in infile:
