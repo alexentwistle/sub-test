@@ -10,7 +10,7 @@ Identify a website's accessible and indexable subdomains
 
 ## ToDo
 - Add comma delimiters to 'results.txt' to enable conversion to csv / xlsx
-- Test responses for different status codes
+- Test responses for different status codes (e.g.200 & 301 are fine. check: 302,403,404,500)
 - Check HTML response for noindex tag on accessible URLs
 
 

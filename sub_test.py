@@ -1,12 +1,11 @@
 import sublist3r
 import requests
 
-# Uncomment below to allow users to specify their own domain
-# domain = input("Specify the domain: ")
 
-# Placeholder. TODO: Replace with user input
-domain = "playretrogames.com" #placeholder
-## domain = input("Please enter your domain: ") --- # when this is used instead, the command finished after doing nothing.
+domain = "playretrogames.com" # Placeholder. TODO: Replace with user input
+
+# domain = input("Please enter your domain: ") # When this is used instead, the command ends after doing nothing.
+
 subdomains = sublist3r.main(domain, 40, 'discovered.txt', ports= None, silent=True, verbose= False, enable_bruteforce= False, engines=None)
 
 with open('discovered.txt') as infile, open('fixed.txt', 'w') as outfile:
