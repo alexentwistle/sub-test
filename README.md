@@ -22,13 +22,14 @@ Identify a website's accessible and indexable subdomains
 - Use Requests library to retrieve status codes for URL list
 - Add exception handling for Connection Error
 - Add response history for redirected URLs
+- 
 
 
 ## Temporary workflow
 1. sub_test.py 
 - enumerates subdomains for domain (currently fixed, eventually will take user input)
-- output as 'discovered.txt'. clean up URLs and prepend protocols, and output as 'fixed.txt'
-- return status code for each URL in 'fixed.txt', and output results to 'resuts.txt'
+- output as 'discovered_subdomains.txt'. clean up URLs and prepend protocols, and output as 'cleaned_subdomains.txt'
+- return status code for each URL in 'cleaned_subdomains.txt', and output results to 'sub_responses.txt'
 
 2. check_status.py
-- no longer needed
+- removed: no longer needed
