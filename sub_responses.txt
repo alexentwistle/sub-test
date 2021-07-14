@@ -1,0 +1,258 @@
+http://www.dummies.com: 200. History: [<Response [301]>]
+https://www.dummies.com: 200. History: []
+http://12covers.dummies.com: 500. History: []
+https://12covers.dummies.com: Connection Error.
+http://16-_amazonses.dummies.com: 500. History: []
+https://16-_amazonses.dummies.com: Connection Error.
+http://3my2cents.dummies.com: 500. History: []
+https://3my2cents.dummies.com: Connection Error.
+http://7as.dummies.com: 500. History: []
+https://7as.dummies.com: Connection Error.
+http://8coversqa.dummies.com: 500. History: []
+https://8coversqa.dummies.com: Connection Error.
+http://accountseu.dummies.com: 500. History: []
+https://accountseu.dummies.com: Connection Error.
+http://ans3.dummies.com: 500. History: []
+https://ans3.dummies.com: Connection Error.
+http://api-ca.dummies.com: 500. History: []
+https://api-ca.dummies.com: Connection Error.
+http://apollocatalog.dummies.com: 500. History: []
+https://apollocatalog.dummies.com: Connection Error.
+http://apolloqa.dummies.com: 500. History: []
+https://apolloqa.dummies.com: Connection Error.
+http://as.dummies.com: 200. History: [<Response [301]>, <Response [301]>]
+https://as.dummies.com: Connection Error.
+http://as-aws.dummies.com: 500. History: []
+https://as-aws.dummies.com: Connection Error.
+http://as-docker.dummies.com: 500. History: []
+https://as-docker.dummies.com: Connection Error.
+http://aswebapp.dummies.com: 500. History: []
+https://aswebapp.dummies.com: Connection Error.
+http://au.dummies.com: 200. History: [<Response [301]>, <Response [301]>]
+https://au.dummies.com: Connection Error.
+http://aws-searchqa.dummies.com: 500. History: []
+https://aws-searchqa.dummies.com: Connection Error.
+http://billingmy2cents.dummies.com: 500. History: []
+https://billingmy2cents.dummies.com: Connection Error.
+http://blogs.dummies.com: Connection Error.
+https://blogs.dummies.com: Connection Error.
+http://ca.dummies.com: 200. History: [<Response [301]>, <Response [301]>]
+https://ca.dummies.com: Connection Error.
+http://ca-d.dummies.com: 500. History: []
+https://ca-d.dummies.com: Connection Error.
+http://ca-jenkins.dummies.com: 500. History: []
+https://ca-jenkins.dummies.com: Connection Error.
+http://ca1.dummies.com: 500. History: []
+https://ca1.dummies.com: Connection Error.
+http://catalog.dummies.com: Connection Error.
+https://catalog.dummies.com: Connection Error.
+http://catalog-hkg.dummies.com: 500. History: []
+https://catalog-hkg.dummies.com: Connection Error.
+http://catalogmail.dummies.com: 500. History: []
+https://catalogmail.dummies.com: Connection Error.
+http://catalognorthamerica.dummies.com: 500. History: []
+https://catalognorthamerica.dummies.com: Connection Error.
+http://cda.dummies.com: 500. History: []
+https://cda.dummies.com: Connection Error.
+http://cms-au.dummies.com: 500. History: []
+https://cms-au.dummies.com: Connection Error.
+http://com-searchqa.dummies.com: 500. History: []
+https://com-searchqa.dummies.com: Connection Error.
+http://cloudgz-ecs.gravityzone.bitdefender.comwww.dummies.com: 500. History: []
+https://cloudgz-ecs.gravityzone.bitdefender.comwww.dummies.com: Connection Error.
+http://covers.dummies.com: 530. History: []
+https://covers.dummies.com: Connection Error.
+http://coversqa-jenkins.dummies.com: 500. History: []
+https://coversqa-jenkins.dummies.com: Connection Error.
+http://coversswagger.dummies.com: 500. History: []
+https://coversswagger.dummies.com: Connection Error.
+http://db.dummies.com: 500. History: []
+https://db.dummies.com: Connection Error.
+http://demos.dummies.com: 500. History: []
+https://demos.dummies.com: Connection Error.
+http://docs-my2cents.dummies.com: 500. History: []
+https://docs-my2cents.dummies.com: Connection Error.
+http://dummieswww.dummies.com: 500. History: []
+https://dummieswww.dummies.com: Connection Error.
+http://emailstudyandprep.dummies.com: 500. History: []
+https://emailstudyandprep.dummies.com: Connection Error.
+http://etips.dummies.com: Connection Error.
+https://etips.dummies.com: Connection Error.
+http://etips-confluence.dummies.com: 500. History: []
+https://etips-confluence.dummies.com: Connection Error.
+http://etips-gh.dummies.com: 500. History: []
+https://etips-gh.dummies.com: Connection Error.
+http://etipsauth.dummies.com: 500. History: []
+https://etipsauth.dummies.com: Connection Error.
+http://etipsn.dummies.com: 500. History: []
+https://etipsn.dummies.com: Connection Error.
+http://eu.dummies.com: 200. History: [<Response [301]>, <Response [301]>]
+https://eu.dummies.com: Connection Error.
+http://m.eu.dummies.com: 530. History: [<Response [301]>]
+https://m.eu.dummies.com: Connection Error.
+http://euwe-www.dummies.com: 500. History: []
+https://euwe-www.dummies.com: Connection Error.
+http://f-search2.dummies.com: 500. History: []
+https://f-search2.dummies.com: Connection Error.
+http://firewallvideo.dummies.com: 500. History: []
+https://firewallvideo.dummies.com: Connection Error.
+http://fw-covers.dummies.com: 500. History: []
+https://fw-covers.dummies.com: Connection Error.
+http://help.dummies.com: Connection Error.
+https://help.dummies.com: Connection Error.
+http://help-northamerica.dummies.com: 500. History: []
+https://help-northamerica.dummies.com: Connection Error.
+http://helpprofiles.dummies.com: 500. History: []
+https://helpprofiles.dummies.com: Connection Error.
+http://helpwebapp.dummies.com: 500. History: []
+https://helpwebapp.dummies.com: Connection Error.
+http://hkg-search.dummies.com: 500. History: []
+https://hkg-search.dummies.com: Connection Error.
+http://hwcdn-search.dummies.com: 500. History: []
+https://hwcdn-search.dummies.com: Connection Error.
+http://ibm-ai-docs.dummies.com: 500. History: []
+https://ibm-ai-docs.dummies.com: Connection Error.
+http://ibm-pl.dummies.com: 500. History: []
+https://ibm-pl.dummies.com: Connection Error.
+http://internetq.dummies.com: 500. History: []
+https://internetq.dummies.com: Connection Error.
+http://internettest.dummies.com: 500. History: []
+https://internettest.dummies.com: Connection Error.
+http://korea-covers.dummies.com: 500. History: []
+https://korea-covers.dummies.com: Connection Error.
+http://lax-searchdev.dummies.com: 500. History: []
+https://lax-searchdev.dummies.com: Connection Error.
+http://learn.dummies.com: 200. History: [<Response [301]>, <Response [301]>, <Response [301]>, <Response [301]>, <Response [301]>, <Response [301]>]
+https://learn.dummies.com: Connection Error.
+http://www.learn.dummies.com: 403. History: [<Response [302]>, <Response [301]>]
+https://www.learn.dummies.com: Connection Error.
+http://learnaccount.dummies.com: 500. History: []
+https://learnaccount.dummies.com: Connection Error.
+http://learnapril.dummies.com: 500. History: []
+https://learnapril.dummies.com: Connection Error.
+http://learnqa.dummies.com: 500. History: []
+https://learnqa.dummies.com: Connection Error.
+http://lsearchdev.dummies.com: 500. History: []
+https://lsearchdev.dummies.com: Connection Error.
+http://m.dummies.com: 530. History: []
+https://m.dummies.com: Connection Error.
+http://www.m.dummies.com: Connection Error.
+https://www.m.dummies.com: Connection Error.
+http://mac3.dummies.com: 500. History: []
+https://mac3.dummies.com: Connection Error.
+http://mail-catalog.dummies.com: 500. History: []
+https://mail-catalog.dummies.com: Connection Error.
+http://msept.dummies.com: 500. History: []
+https://msept.dummies.com: Connection Error.
+http://newhelp.dummies.com: 500. History: []
+https://newhelp.dummies.com: Connection Error.
+http://ns2.dummies.com: Connection Error.
+https://ns2.dummies.com: Connection Error.
+http://ns2-spring.dummies.com: 500. History: []
+https://ns2-spring.dummies.com: Connection Error.
+http://onlinepractice.dummies.com: 200. History: [<Response [301]>, <Response [301]>, <Response [301]>, <Response [301]>, <Response [301]>, <Response [301]>]
+https://onlinepractice.dummies.com: Connection Error.
+http://onlinepractice0.dummies.com: 500. History: []
+https://onlinepractice0.dummies.com: Connection Error.
+http://perf.dummies.com: 500. History: []
+https://perf.dummies.com: Connection Error.
+http://poland-searchqa.dummies.com: 500. History: []
+https://poland-searchqa.dummies.com: Connection Error.
+http://printserv.dummies.com: 500. History: []
+https://printserv.dummies.com: Connection Error.
+http://prod2.dummies.com: 200. History: []
+https://prod2.dummies.com: Connection Error.
+http://www.prod2.dummies.com: 500. History: []
+https://www.prod2.dummies.com: Connection Error.
+http://prodnet.dummies.com: 500. History: []
+https://prodnet.dummies.com: Connection Error.
+http://www.qa.dummies.com: Connection Error.
+https://www.qa.dummies.com: Connection Error.
+http://qa2-aws.dummies.com: 500. History: []
+https://qa2-aws.dummies.com: Connection Error.
+http://qa2-i.dummies.com: 500. History: []
+https://qa2-i.dummies.com: Connection Error.
+http://qa2-promo.dummies.com: 500. History: []
+https://qa2-promo.dummies.com: Connection Error.
+http://qa2las.dummies.com: 500. History: []
+https://qa2las.dummies.com: Connection Error.
+http://qa2twitch.dummies.com: 500. History: []
+https://qa2twitch.dummies.com: Connection Error.
+http://reports.dummies.com: Connection Error.
+https://reports.dummies.com: Connection Error.
+http://www.reports.dummies.com: Connection Error.
+https://www.reports.dummies.com: Connection Error.
+http://restrictsupport.dummies.com: 500. History: []
+https://restrictsupport.dummies.com: Connection Error.
+http://search-r.dummies.com: 500. History: []
+https://search-r.dummies.com: Connection Error.
+http://search2-analytics.dummies.com: 500. History: []
+https://search2-analytics.dummies.com: Connection Error.
+http://search2-drop.dummies.com: 500. History: []
+https://search2-drop.dummies.com: Connection Error.
+http://searchdevhkg.dummies.com: 500. History: []
+https://searchdevhkg.dummies.com: Connection Error.
+http://searchqarestricted.dummies.com: 500. History: []
+https://searchqarestricted.dummies.com: Connection Error.
+http://searchqatur.dummies.com: 500. History: []
+https://searchqatur.dummies.com: Connection Error.
+http://searchtrial.dummies.com: 500. History: []
+https://searchtrial.dummies.com: Connection Error.
+http://secure-new.dummies.com: 500. History: []
+https://secure-new.dummies.com: Connection Error.
+http://secure-prod.dummies.com: 500. History: []
+https://secure-prod.dummies.com: Connection Error.
+http://secure-staging.dummies.com: 500. History: []
+https://secure-staging.dummies.com: Connection Error.
+http://securewww.dummies.com: 500. History: []
+https://securewww.dummies.com: Connection Error.
+http://sql-help.dummies.com: 500. History: []
+https://sql-help.dummies.com: Connection Error.
+http://static.dummies.com: 404. History: [<Response [301]>]
+https://static.dummies.com: Connection Error.
+http://static-12.dummies.com: 500. History: []
+https://static-12.dummies.com: Connection Error.
+http://staticeuw.dummies.com: 500. History: []
+https://staticeuw.dummies.com: Connection Error.
+http://studyandprep.dummies.com: 200. History: [<Response [301]>, <Response [301]>, <Response [301]>, <Response [301]>, <Response [301]>, <Response [301]>]
+https://studyandprep.dummies.com: Connection Error.
+http://studyandprepdeveloper.dummies.com: 500. History: []
+https://studyandprepdeveloper.dummies.com: Connection Error.
+http://suppliers.dummies.com: 500. History: []
+https://suppliers.dummies.com: Connection Error.
+http://support.dummies.com: Connection Error.
+https://support.dummies.com: Connection Error.
+http://supportdrop.dummies.com: 500. History: []
+https://supportdrop.dummies.com: Connection Error.
+http://test.dummies.com: Connection Error.
+https://test.dummies.com: Connection Error.
+http://www.test.dummies.com: Connection Error.
+https://www.test.dummies.com: Connection Error.
+http://testlinux.dummies.com: 500. History: []
+https://testlinux.dummies.com: Connection Error.
+http://turkey-onlinepractice.dummies.com: 500. History: []
+https://turkey-onlinepractice.dummies.com: Connection Error.
+http://uat.dummies.com: 500. History: []
+https://uat.dummies.com: Connection Error.
+http://uatsecure.dummies.com: 500. History: []
+https://uatsecure.dummies.com: Connection Error.
+http://v1qa2.dummies.com: 500. History: []
+https://v1qa2.dummies.com: Connection Error.
+http://vcatalog.dummies.com: 500. History: []
+https://vcatalog.dummies.com: Connection Error.
+http://video.dummies.com: 200. History: [<Response [301]>, <Response [301]>, <Response [302]>, <Response [301]>]
+https://video.dummies.com: Connection Error.
+http://video-preferences.dummies.com: 500. History: []
+https://video-preferences.dummies.com: Connection Error.
+http://videob.dummies.com: 500. History: []
+https://videob.dummies.com: Connection Error.
+http://vmail.dummies.com: 500. History: []
+https://vmail.dummies.com: Connection Error.
+http://w2008.dummies.com: 500. History: []
+https://w2008.dummies.com: Connection Error.
+http://winnov.dummies.com: 500. History: []
+https://winnov.dummies.com: Connection Error.
+http://wvvw.dummies.com: 500. History: []
+https://wvvw.dummies.com: Connection Error.
+http://wwwnautilus.dummies.com: 500. History: []
+https://wwwnautilus.dummies.com: Connection Error.
