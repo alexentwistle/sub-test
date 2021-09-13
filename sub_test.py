@@ -2,7 +2,7 @@ import sublist3r
 import requests
 
 
-domain = "global-savings-group.com" # Placeholder. TODO: Replace with user input
+domain = "global-savings-group.com" # Placeholder. TODO: Replace with user input (line 7)
 
 #domain = input("Please enter your domain: ") # BUG: When this is used instead of line 5, the script ends after doing nothing.
 
