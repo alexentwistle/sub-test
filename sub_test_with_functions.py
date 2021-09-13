@@ -67,7 +67,7 @@ def create_url_list_from_subdomains(subdomains):
 
 # make request module's response object into string of url + status code
 def stringify_response(response):
-    return response.url + " " + response.status_code
+    return response.url + " " + str(response.status_code)
 
 # request URLs and report status code and redirect chains
 def request_urls(urls, data_dir):
@@ -92,8 +92,8 @@ def request_urls(urls, data_dir):
                 # print to console and write to file
                 print outline
                 outfile.write(outline+"\n")
-            except requests.ConnectionError as e:
-                errline = url+" Connection Error"
+            except Exception as e:
+                errline = url+" Connection Error: "+str(e)
                 print errline
                 outfile.write(errline +"\n")
 
