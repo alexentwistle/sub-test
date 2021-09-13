@@ -9,7 +9,7 @@ Identify a website's accessible and indexable subdomains
 
 
 ## ToDo
-- Add comma delimiters to 'sub_responses.txt' to enable conversion to csv / xlsx OR use pandas to make dataframe
+- Allow users to specify their own domain (user input) rather than fixed domain.
 - Add more detail to Reponse History (i.e. each URL of redirection step)
 - Check HTML response for noindex tag on accessible URLs
 
@@ -22,7 +22,7 @@ Identify a website's accessible and indexable subdomains
 - Use Requests library to retrieve status codes for URL list
 - Add exception handling for Connection Error
 - Add response history for redirected URLs
-- Test responses for different status codes (e.g.200,301,302,4xx, 500 have been succesful)
+- Test responses for different status codes (200,301,302,4xx,500 have been succesful)
 
 
 
