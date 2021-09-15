@@ -17,7 +17,6 @@ def get_domains_from_argv():
         print("Error: expected domain(s), e.g.:")
         print("python", sys.argv[0], "example.com anotherexample.com")
         exit(1)
-
     # discard first element (script name) - the rest are our domains
     domains = sys.argv[1:]
     return domains
@@ -62,14 +61,6 @@ def create_url_list_from_subdomains(subdomains):
     # start with the base domains http and https URLs
     urls = []
     for subdomain in subdomains:
-        # temp code, remove
-        # exceptions "escape" their functions "up the stack" (to the calling function)
-        # until they find a except: block
-        # otherwise execution halts
-        # this is handled in main() except: block
-        if subdomain == "summer.bitsios.com":
-            # this is how you raise/"throw" an exception BTW
-            raise Exception("Don't with fuck Summer")
         urls.append("http://" + subdomain + "/")
         urls.append("https://" + subdomain + "/")
     return urls
@@ -87,11 +78,6 @@ def request_urls(urls, data_dir):
             try:
                 # simulate unexpected errors
                 # will be handled by 'except Exception as e:' block in this function
-                # for exception handling demonstration purposes
-                if url == "http://stefania.fokaeos.com/":
-                    # let's trigger a str + int exception
-                    tasinet = "tas" + 1 + "net"
-
                 response = requests.get(url, timeout=5)
                 # record all redirect urls and status codes into a list
                 redirect_chain = []
@@ -140,12 +126,6 @@ def main():
             # we do this here because we need it both in discover_subdomains and request_urls
             # so we pass it into both as a function argument
             data_dir = create_data_dir(domain)
-            # simulate something unexpected going wrong
-            # this is the "same" as the exception for summer.bitsios.com
-            # in create_url_list_from_subdomains
-            # i.e. will be handled by except: block below
-            if domain == "ds.tasinet.gr":
-                raise Exception("Booby trapped!")
             # get subdomains from sublisted. now includes base domain as well.
             subdomains = discover_subdomains(domain, data_dir)
             urls = create_url_list_from_subdomains(subdomains)
