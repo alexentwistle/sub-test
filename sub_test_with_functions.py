@@ -2,6 +2,7 @@ import sublist3r
 import requests
 import os
 import sys
+import traceback
 
 # the other script is fine but as things get more complex
 # it is better to isolate specific tasks into functions
@@ -61,6 +62,14 @@ def create_url_list_from_subdomains(subdomains):
     # start with the base domains http and https URLs
     urls = []
     for subdomain in subdomains:
+        # temp code, remove
+        # exceptions "escape" their functions "up the stack" (to the calling function)
+        # until they find a except: block
+        # otherwise execution halts
+        # this is handled in main() except: block
+        if subdomain == "summer.bitsios.com":
+            # this is how you raise/"throw" an exception BTW
+            raise Exception("Don't with fuck Summer")
         urls.append("http://" + subdomain + "/")
         urls.append("https://" + subdomain + "/")
     return urls
@@ -76,6 +85,13 @@ def request_urls(urls, data_dir):
         # request each URL and output status code and redirect chains
         for url in urls:
             try:
+                # simulate unexpected errors
+                # will be handled by 'except Exception as e:' block in this function
+                # for exception handling demonstration purposes
+                if url == "http://stefania.fokaeos.com/":
+                    # let's trigger a str + int exception
+                    tasinet = "tas" + 1 + "net"
+
                 response = requests.get(url, timeout=5)
                 # record all redirect urls and status codes into a list
                 redirect_chain = []
@@ -92,13 +108,26 @@ def request_urls(urls, data_dir):
                 # print(to console and write to file
                 print(outline)
                 outfile.write(outline+"\n")
-            except requests.ConnectionError as e:
-                errline = url+" Connection Error"
+            # this block handles all Requests related exceptions
+            # these are expected errors
+            except requests.exceptions.RequestException as e:
+                errline = url + " Connection Error: " + str(e)
                 print(errline)
+                outfile.write(errline +"\n")
+            # if other shit goes wrong we still want to continue processing
+            # other subdomains will continue processing
+            except Exception as e:
+                errline = url + " UNEXPECTED ERROR: " + str(e)
+                print(errline)
+                # this prints a "stack traceback" 
+                # so you get nice error line numbers
+                # must-have but not needed in the file so we just print to console
+                # https://stackoverflow.com/questions/3702675/how-to-catch-and-print-the-full-exception-traceback-without-halting-exiting-the
+                # https://docs.python.org/3/library/traceback.html
+                print(traceback.format_exc())
                 outfile.write(errline +"\n")
 
     print("Subdomain responses saved to:", subdomain_responses_file)
-    print("  ---- ")
 
 # main body
 def main():
@@ -106,13 +135,27 @@ def main():
     domains = get_domains_from_argv()
     # enumerate each domain
     for domain in domains:
-        # create data dir.
-        # we do this here because we need it both in discover_subdomains and request_urls
-        # so we pass it into both as a function argument
-        data_dir = create_data_dir(domain)
-        # get subdomains from sublisted. now includes base domain as well.
-        subdomains = discover_subdomains(domain, data_dir)
-        urls = create_url_list_from_subdomains(subdomains)
-        request_urls(urls, data_dir)
+        try:
+            # create data dir.
+            # we do this here because we need it both in discover_subdomains and request_urls
+            # so we pass it into both as a function argument
+            data_dir = create_data_dir(domain)
+            # simulate something unexpected going wrong
+            # this is the "same" as the exception for summer.bitsios.com
+            # in create_url_list_from_subdomains
+            # i.e. will be handled by except: block below
+            if domain == "ds.tasinet.gr":
+                raise Exception("Booby trapped!")
+            # get subdomains from sublisted. now includes base domain as well.
+            subdomains = discover_subdomains(domain, data_dir)
+            urls = create_url_list_from_subdomains(subdomains)
+            request_urls(urls, data_dir)
+        # catch generic exceptions so we can continue with other domains if something unexpected goes wrong
+        except Exception as e:
+            print("Unexpected error handling", domain+':', e)
+            print(traceback.format_exc())
+        # this block executes whether an exception was thrown or not
+        finally:
+            print("  ---- ")
 
 main()

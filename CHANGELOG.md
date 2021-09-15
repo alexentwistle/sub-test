@@ -17,3 +17,24 @@ Notes:
 - It is now large enough to break up into functions
 - I left sub_test.py "procedural" - i.e. flat, without functions, just executes top to bottom
 - I wanted to show you how I would structure it with functions as well, check out sub_test_with_functions.py
+
+## MORE CHANGES
+
+- switched to python3, nice
+- request_urls exception handling:
+  - broader requests-related exception handling incl. timeouts
+  - generic Exception handling for unexpected errors
+  - print error message
+  - temporary code to demo exception handling
+- other/generic exception handling in main()
+  - temporary code to demo exception handling
+- added some potential TODOs
+
+
+Run with: python3 sub_test_with_functions.py bitsios.com ds.tasinet.gr fokaeos.com me-nu.gr
+
+See how execution of domain/subdomain stops based on where the exception was thrown, but
+1) domains still process because of the try/except inside the main() loop
+2) subdomain urls still process because of the generic exception handler inside request_urls
+
+You can remove the temp code that checks against my domains/URLs as they are for demo purposes
